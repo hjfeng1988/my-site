@@ -1,0 +1,21 @@
+site_name: My Docs
+site_url: https://hjfeng.xyz
+theme:
+  name: material
+
+nav:
+  - index: index.md
+  - 生活: life/a.md
+  - 工作:
+    - work/index.md
+    - 试用期: work/a.md
+    - 转正: work/b.md
+  - 游戏:
+    - 腾讯游戏:
+      - 王者荣耀: game/a.md
+      - 英雄联盟: game/b.md
+    - 网易游戏:
+      - 梦幻西游: game/c.md
+      - 蛋仔排队: game/d.md
+
+
