@@ -18,4 +18,20 @@ nav:
       - 梦幻西游: game/c.md
       - 大话西游: game/d.md
   - go:
+    - 变量: go/variable.md
+    - 常量: go/constant.md
+    - 基本类型: go/basic-type.md
+    - 数组: go/array.md
+    - 切片: go/slice.md
+    - map: go/map.md
+    - 函数: go/function.md
+    - 指针: go/pointer.md
+    - 结构体: go/struct.md
+    - 方法: go/method.md
+    - 接口: go/interface.md
+    - 并发: go/concurrency.md
+    - goroutine: go/goroutine.md
+    - channel: go/channel.md
+    - select: go/select.md
+    - sync: go/sync.md
     - module导入本地包: go/import-local-package.md
