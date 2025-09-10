@@ -16,5 +16,6 @@ nav:
       - 英雄联盟: game/b.md
     - 网易游戏:
       - 梦幻西游: game/c.md
-      - 蛋仔排队: game/d.md
-
+      - 大话西游: game/d.md
+  - go:
+    - module导入本地包: go/import-local-package.md
