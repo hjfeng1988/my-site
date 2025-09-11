@@ -38,6 +38,16 @@ func main(){
 }
 ```
 
+## map是引用类型
+```
+func main(){
+	fmt.Println(map4) // map[one:1 three:3 two:2]
+	map5 := map4
+	map5["one"] = 4
+	fmt.Println(map4) // map[one:4 three:3 two:2]
+}
+```
+
 ## 元素为map类型的切片
 ```
 func main(){

@@ -1,4 +1,4 @@
-# variable
+# Variable
 
 ## 标准声明
 

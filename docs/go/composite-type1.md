@@ -1,4 +1,4 @@
-## Composite Type
+# Composite Type
 
 ## 声明格式
 ```
