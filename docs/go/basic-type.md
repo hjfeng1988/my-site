@@ -12,8 +12,8 @@ func main() {
 	var b string
 	var c int
 	var d float64
-	var e byte
-	var f rune
+	var e byte // 表示 ASCII 字符
+	var f rune // 表示 Unicode 字符
 
 	fmt.Println(a, b, c, d, e, f)
 	fmt.Printf("%T,%T,%T,%T,%T,%T\n", a, b, c, d, e, f)

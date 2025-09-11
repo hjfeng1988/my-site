@@ -22,6 +22,7 @@ nav:
     - 常量: go/constant.md
     - 基本类型: go/basic-type.md
     - 输出格式化: go/format.md
+    - 复合类型1: go/composite-type1.md
     - 数组: go/array.md
     - 切片: go/slice.md
     - map: go/map.md
