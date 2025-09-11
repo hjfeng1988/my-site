@@ -22,44 +22,32 @@ import (
 )
 
 func main() {
-	var array1 [3]int = [3]int{1, 2, 3}
-	array2 := [3]string{"a", "b", "c"}
-	var slice1 []int = []int{4, 5, 6}
-	slice2 := []string{"e", "f", "g"}
-	var map1 map[string]int = map[string]int{"x": 1}
-	map2 := map[int]string{1: "y"}
+	var array [3]int
+	var slice []int
+	var m map[string]int
 
-	fmt.Printf("%v %v %T %T\n", array1, array2, array1, array2)
-	fmt.Printf("%v %v %T %T\n", slice1, slice2, slice1, slice2)
-	fmt.Printf("%v %v %T %T\n", map1, map2, map1, map2)
+	fmt.Printf("%v %T\n", array, array)
+	fmt.Printf("%v %T\n", slice, slice)
+	fmt.Printf("%v %T\n", m, m)
 
 	fmt.Println("-----")
-	tArray1 := reflect.TypeOf(array1)
-	tArray2 := reflect.TypeOf(array2)
-	tSlice1 := reflect.TypeOf(slice1)
-	tSlice2 := reflect.TypeOf(slice2)
-	tMap1 := reflect.TypeOf(map1)
-	tMap2 := reflect.TypeOf(map2)
+	tArray := reflect.TypeOf(array)
+	tSline := reflect.TypeOf(slice)
+	tMap := reflect.TypeOf(m)
 
-	fmt.Printf("kind=%s, type=%s\n", tArray1.Kind(), tArray1.String())
-	fmt.Printf("kind=%s, type=%s\n", tArray2.Kind(), tArray2.String())
-	fmt.Printf("kind=%s, type=%s\n", tSlice1.Kind(), tSlice1.String())
-	fmt.Printf("kind=%s, type=%s\n", tSlice2.Kind(), tSlice2.String())
-	fmt.Printf("kind=%s, type=%s\n", tMap1.Kind(), tMap1.String())
-	fmt.Printf("kind=%s, type=%s\n", tMap2.Kind(), tMap2.String())
+	fmt.Printf("kind=%s, type=%s\n", tArray.Kind(), tArray.String())
+	fmt.Printf("kind=%s, type=%s\n", tSline.Kind(), tSline.String())
+	fmt.Printf("kind=%s, type=%s\n", tMap.Kind(), tMap.String())
 }
 ```
 
 输出
 ```
-[1 2 3] [a b c] [3]int [3]string
-[4 5 6] [e f g] []int []string
-map[x:1] map[1:y] map[string]int map[int]string
+[0 0 0] [3]int
+[] []int
+map[] map[string]int
 -----
 kind=array, type=[3]int
-kind=array, type=[3]string
 kind=slice, type=[]int
-kind=slice, type=[]string
 kind=map, type=map[string]int
-kind=map, type=map[int]string
 ```
