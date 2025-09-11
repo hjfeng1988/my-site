@@ -1,6 +1,6 @@
 # Array
 
-## 数组的初始化
+## 声明和初始化
 ```
 func main() {
 	// 指定长度和初始化值
@@ -40,10 +40,10 @@ func main() {
 ```
 func main() {
 	array5 := [...][2]string{
-		{"beijing", "hebei"},
-		{"shanghai", "jiangsu"},
-		{"guangzhou", "guangdong"},
-		{"shenzhen", "guangdong"},
+		{"beijing", "bj"},
+		{"shanghai", "sh"},
+		{"guangzhou", "gz"},
+		{"shenzhen", "sz"},
 	}
 	fmt.Println(array5)
 	// [[beijing bj] [shanghai sh] [guangzhou gz] [shenzhen sz]]
