@@ -46,7 +46,7 @@ func main() {
 		{"shenzhen", "guangdong"},
 	}
 	fmt.Println(array5)
-	// [[beijing hebei] [shanghai jiangsu] [guangzhou guangdong] [shenzhen guangdong]]
+	// [[beijing bj] [shanghai sh] [guangzhou gz] [shenzhen sz]]
 }
 ```
 
